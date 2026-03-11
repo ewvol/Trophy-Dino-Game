@@ -1,5 +1,8 @@
 body {
-    background-color: aqua;
+    background-color: #ffd97c;
+    font-family: pixel;
+    color:#79200c;
+    margin: 10%;
 }
 
 iframe {
@@ -11,3 +14,23 @@ iframe {
     margin-left: 35%;
     margin-right: 50%;
 }
+
+h2{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 25px;
+}
+@font-face {
+    font-family: pixel;
+    src: url(Fontsdino/PixelOperatorMono8.ttf);
+}
+
+#backbutton {
+ background-color: #fff8df;
+ color: #79200c;
+ border-radius: 10px;
+ position: absolute;
+ border-color: #79200c;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

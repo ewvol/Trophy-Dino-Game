@@ -42,6 +42,7 @@ var checkDeath=setInterval(function(){
     block.style.animation = "none";
     block.style.display= "none"
     gameOver= true;
+    alert("you dide..")
     setupGameReset()
 
    }
