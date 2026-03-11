@@ -3,10 +3,21 @@
     margin:0;
 }
 
+body {
+    font-family: pixel;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 #game {
     width: 500px;
     height: 200px;
-    border: 1px solid black;
+    background-color: rgb(255, 254, 216);
+    border: 1px solid #79200c;
+    border-radius: 10px;
 }
 
 #character{
@@ -15,6 +26,7 @@
     position: relative;
     top: 150px;
     left: 20px;
+    z-index: 1;
 }
 
 .animate{
@@ -23,24 +35,28 @@
 #block{
     width: 20px;
     height: 20px;
-    background-color: blue;
     position: relative;
     top: 130px;
     left: 480px;
     animation: slide 1s infinite linear;
-
+    z-index: 1;
 }
 
 #score {
     position: relative;
-    left: 15px;
+    left: 20px;
     bottom: 190px;
+    font-size: 15px;
+    font-family: pixel;
+    color: #79200c;
 }
+
 
 @keyframes slide {
     0%{left: 480px;}
     100%{left:-40px;}
 }
+
 
 @keyframes jump {
     0%{top: 150px;}
@@ -48,4 +64,9 @@
     50%{top: 90px}
     70%{top: 100px;}
     100%{top:150px;}
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(Fontsdino/PixelOperatorMono8.ttf);
 }

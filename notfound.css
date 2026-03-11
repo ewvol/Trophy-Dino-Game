@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+
+iframe {
+    border: none;
+    display: block;
+}
+
+#game {
+    margin-left: 35%;
+    margin-right: 50%;
+}

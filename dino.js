@@ -12,6 +12,7 @@ var raiseScore = setInterval(function(){
     }
 }, 100)
 
+
 function jump(){
     if(character.classList != "animate"){
         character.classList.add("animate")
@@ -40,7 +41,6 @@ var checkDeath=setInterval(function(){
    if(blockLeft<40 && blockLeft>0 && characterTop>=120){
     block.style.animation = "none";
     block.style.display= "none"
-    alert("you dide... click again 2 restart")
     gameOver= true;
     setupGameReset()
 
